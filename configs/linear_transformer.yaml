@@ -1,0 +1,28 @@
+model_dir: .hydra
+hydra:
+    run:
+        dir: outputs/${model_dir}
+train:
+    seed: 123
+    fp16_run: false
+    log_interval: 1000
+    eval_interval: 1000
+    num_tokens: 32768 # 16384
+    epochs: 10000
+    learning_rate: 1e-4
+    betas: [0.9, 0.98]
+    eps: 1e-9
+    lamb: 0
+
+data:
+    vocab_path: /data/private/datasets/pubtabnet/annotations/vocab.txt
+    training_file_path: /data/private/datasets/pubtabnet/annotations/train.json
+    validation_file_path: /data/private/datasets/pubtabnet/annotations/val.json
+    patch_length: 8
+
+model:
+    hidden_channels: 512 # 1024
+    filter_channels: 2048 # 4096
+    n_heads: 8 # 16
+    n_layers: 12
+    p_dropout: 0.1 # 0.3
