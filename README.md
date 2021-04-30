@@ -1,6 +1,11 @@
 # Linear Transformer for Table Recognition
 
 ## Introduction
+
+<div align=center>
+<img src="./resources/ltiayn.png" />
+</div>
+
 This is the code repository for paricipation in [ICDAR2021 Competition on scientific literature parsing - Task B: Table recognition](https://icdar2021.org/competitions/competition-on-scientific-literature-parsing/).
 
 - Dataset: [PubTabNet](https://github.com/ibm-aur-nlp/PubTabNet)
