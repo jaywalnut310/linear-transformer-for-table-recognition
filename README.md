@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the code repository for paricipation in [ICDAR2021 Competition on scientific literature parsing - Task B: Table recognition](https://icdar2021.org/competitions/competition-on-scientific-literature-parsing/).
+This is the code repository for participation in [ICDAR2021 Competition on scientific literature parsing - Task B: Table recognition](https://icdar2021.org/competitions/competition-on-scientific-literature-parsing/) (Team Name: LTIAYN = Kaen Context).
 
 
 
